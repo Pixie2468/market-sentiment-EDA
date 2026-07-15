@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "market-sentiment-eda"
+version = "0.1.0"
+description = "Exploratory Data Analysis investigating the relationship between market sentiment and cryptocurrency trading microstructure."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Darsh" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "scikit-learn",
+    "jupyter",
+    "tqdm"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/scripts"]

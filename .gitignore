@@ -1,0 +1,13 @@
+# Raw datasets
+data/*.csv
+
+# Python environment & compiled bytecode
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
