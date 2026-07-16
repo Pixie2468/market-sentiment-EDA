@@ -81,7 +81,7 @@ Daily Bitcoin Fear & Greed Index from [alternative.me](https://alternative.me/cr
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/Pixie2468/market-sentiment-EDA.git
 cd market-sentiment-EDA
 
 # 2. Create and activate a virtual environment
